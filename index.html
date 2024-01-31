@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Test</title>
+    <script src="webcam.js"></script>
+    <!-- Importar ml5.js -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+<body>
+    <video></video>
+    <button onclick="captureImage()">Capturar Imagem</button>
+    <script>
+        // Verificar versão ml5.js
+        console.log("Versão ml5.js:", ml5.version);
+    </script>
+</body>
+</html>
